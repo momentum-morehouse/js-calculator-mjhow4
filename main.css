@@ -1,8 +1,12 @@
 
 
-.calculator {
-    height: 50px;
-    width: 50px;
-    border: 50px solid aqua;
+.calculator-grid {
+    height: 100px;
+    width: 100px;
+    border: 100px solid aqua;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 
 }
