@@ -1,1 +1,41 @@
+    body {
+        background-image: url(https://th.bing.com/th/id/OIP.5F6wc832AIPP-x23NZZFUQHaHa?w=171&h=180&c=7&o=5&dpr=2&pid=1.7);
+    }
 
+  .calculator {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background: navy;
+    flex-flow: column wrap;
+  }
+
+.display {
+    height: 20%;
+    border: black solid;
+    background: red;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+#number {
+  width: 90px;
+  cursor: pointer;
+}
+
+#span {
+    width:  184px;
+    cursor: pointer;
+}
+.display .previousItem {
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.display .currentItem {
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
